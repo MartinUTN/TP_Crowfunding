@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class Conexion {
     private static final String URL = "jdbc:mysql://localhost:3306/crowdfunding";
     private static final String USER = "root";
-    private static final String PASSWORD = "Mysql2004";
+    private static final String PASSWORD = "";
 
     public static Connection obtenerConexion() throws SQLException {
         return DriverManager.getConnection(URL, USER, PASSWORD);
